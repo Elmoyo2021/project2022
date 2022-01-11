@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>簡單實作</title>
+    </head>
+    <body>
+      
+      <h1><%= webtitle %></h1>
+      
+      <% if(!todos.length){ %>
+        Error Login
+      <% }else{ %>
+      <%= todos[0].name %>
+      <% } %>
+      
+      
+      <%- //JSON.stringify(todos) %>
+    </body>
+</html>
